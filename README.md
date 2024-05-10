@@ -47,7 +47,7 @@ The MAE of 2.14788 indicates that, on average, the model's prediction is off by 
 
 ## Model Deployment
 
-The best estimator (saved as `saved_trip_price.pkl`) was deployed using Gradio. The local URL for accessing the deployed model is [http://127.0.0.1:7874](http://127.0.0.1:7874).
+The best estimator (saved as `saved_trip_price.pkl`) was deployed using Gradio. The local URL for accessing the deployed model is [http://127.0.0.1:7874] try this (https://6acd192772c4aea8f0.gradio.live).
 ![Screenshot of Web interface Preview](https://imgur.com/iJQiRW2.png)
 
 ### Requirements
