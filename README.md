@@ -26,4 +26,33 @@ Feature engineering was performed by splitting the pickup datetime into years, m
 EDA was conducted to understand the relationship between various features and the target variable (`total_amount`). Below are some key insights:
 
 ### Average Total Amount by Year
-![Screenshot of Loan Approval Prediction Web Interface](https://imgur.com/zNNWHEh.png)
+![Screenshot of Average Trip Price per year](https://imgur.com/zNNWHEh.png)
+
+
+### Average Total Amount by Month
+![Screenshot of Average Trip Price per Month](https://imgur.com/vaPKfc5.png)
+
+
+## Model Development
+
+Baseline models including Decision Tree, Random Forest, XGBoost, and Linear Regression were trained. Random Forest outperformed others, and hyperparameter tuning was performed using Grid Search.
+
+### Results
+- **Mean Squared Error**: 24.0179
+- **Mean Absolute Error**: 2.14788
+- **Root Mean Squared Error**: 4.90081
+- **R-squared Score**: 0.812162
+
+The MAE of 2.14788 indicates that, on average, the model's prediction is off by approximately $2.15, while the RMSE of 4.90081 indicates that, on average, the model's predictions are off by approximately $4.90.
+
+## Model Deployment
+
+The best estimator (saved as `saved_trip_price.pkl`) was deployed using Gradio. The local URL for accessing the deployed model is [http://127.0.0.1:7874](http://127.0.0.1:7874).
+
+### Requirements
+- Gradio installed
+- New York dataset imported
+
+## Future Work
+
+Future work includes deploying the model using Streamlit or Flask for wider accessibility and scalability.
