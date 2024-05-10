@@ -51,15 +51,15 @@ The best estimator (saved as `saved_trip_price.pkl`) was deployed using Gradio. 
 ![Screenshot of Web interface Preview](https://imgur.com/klgz7a9.png)
 
 Example of Input
-Pickup Longitude: -73.9857
-Pickup Latitude: 40.7484
-Dropoff Longitude: -74.0060
-Dropoff Latitude: 40.7128
-Passenger Count: 3
-Trip Distance: 5.2 miles
-Month: May
-Day: 10
-Time: 15 (indicating 3pm)
+1. Pickup Longitude: -73.9857
+2. Pickup Latitude: 40.7484
+3. Dropoff Longitude: -74.0060
+4. Dropoff Latitude: 40.7128
+5. Passenger Count: 3
+6. Trip Distance: 5.2 miles
+7. Month: May
+8. Day: 10
+9. Time: 15 (indicating 3pm)
 
 ### Requirements
 - Gradio installed
