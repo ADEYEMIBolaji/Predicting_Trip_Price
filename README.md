@@ -50,6 +50,17 @@ The MAE of 2.14788 indicates that, on average, the model's prediction is off by 
 The best estimator (saved as `saved_trip_price.pkl`) was deployed using Gradio. The local URL for accessing the deployed model is [http://127.0.0.1:7874] try this (https://2aeb5d0e25fe330419.gradio.live).
 ![Screenshot of Web interface Preview](https://imgur.com/klgz7a9.png)
 
+Example of Input
+Pickup Longitude: -73.9857
+Pickup Latitude: 40.7484
+Dropoff Longitude: -74.0060
+Dropoff Latitude: 40.7128
+Passenger Count: 3
+Trip Distance: 5.2 miles
+Month: May
+Day: 10
+Time: 15 (indicating 3pm)
+
 ### Requirements
 - Gradio installed
 - New York dataset imported
