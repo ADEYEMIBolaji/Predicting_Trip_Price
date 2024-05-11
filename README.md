@@ -32,6 +32,9 @@ EDA was conducted to understand the relationship between various features and th
 ### Average Total Amount by Month
 ![Screenshot of Average Trip Price per Month](https://imgur.com/vaPKfc5.png)
 
+### Geo-Mapping 
+![Screenshot of Geo Mapping](https://imgur.com/thTi6Mh.png)
+
 
 ## Model Development
 
@@ -66,5 +69,5 @@ Example of Input
 - New York dataset imported
 
 ## Future Work
-
-Future work includes deploying the model using Streamlit or Flask for wider accessibility and scalability.
+- Feature engineering the Pick and Drop off address using the Longitude and Latitude
+- Future work includes deploying the model using Streamlit or Flask for wider accessibility and scalability.
