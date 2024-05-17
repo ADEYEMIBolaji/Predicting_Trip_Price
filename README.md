@@ -50,8 +50,8 @@ The MAE of 2.14788 indicates that, on average, the model's prediction is off by 
 
 ## Model Deployment
 
-The best estimator (saved as `saved_trip_price.pkl`) was deployed using Gradio. The local URL for accessing the deployed model is [http://127.0.0.1:7874] try this ( https://93790c939dfc9f9eb6.gradio.live).
-![Screenshot of Web interface Preview](https://imgur.com/klgz7a9.png)
+The best estimator (saved as `saved_trip_price.pkl`) was deployed using Gradio. The local URL for accessing the deployed model is [http://127.0.0.1:7874] try this (https://692c8b8f8c574f7438.gradio.live).
+![Screenshot of Web interface Preview](https://imgur.com/ueL8rNA.png)
 
 Example of Input
 1. Pickup Longitude: -73.9857
